@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-Mar-2014 20:24:35 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.mycompany.test1.Emp558" table="EMP558" catalog="test">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" />
+        </property>
+        <property name="salary" type="java.lang.Float">
+            <column name="SALARY" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>
